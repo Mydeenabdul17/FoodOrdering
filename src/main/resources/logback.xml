@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false">
+
+    <!-- Hide logback own logs -->
+    <statusListener class="ch.qos.logback.core.status.NopStatusListener"/>
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator"/>
+    <!-- Format the log output -->
+
+   <logger name="org.hibernate.engine.jdbc.sql.SqlExceptionHelper" level="OFF"/>
+</configuration>
